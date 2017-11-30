@@ -21,7 +21,7 @@ body{
   color:#8AC40E;
   font-family: Alex Brush;
   text-align: center;
-  position: sticky;
+  position: absolute;
    right:  80px;
    top: 140px;
    left:80px;
