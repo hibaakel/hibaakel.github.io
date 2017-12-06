@@ -11,10 +11,8 @@ body{
   height: 100%;
 }
 .container{
-  width: 100%;
+  width: 100vh;
  height: 100%;
- height: auto;
- width: 1000px;
  margin: 0 auto;
 }
 #title{
@@ -33,6 +31,17 @@ body{
   position: absolute;
    right:  80px;
    top: 260px;
-   left:80px;
-  font-size: 40px;
+   left:50px;
+  font-size: 30px;
+}
+#hr{
+  color:#FFFE19;
+  font-family: Bangers;
+  position: absolute;
+   right:  80px;
+   top: 390px;
+   left:60px;
+  font-size: 50px;
+  text-decoration: none;
+  text-shadow: 4px 2px   #8AC40E;
 }
