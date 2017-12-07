@@ -14,6 +14,12 @@ ul{
  margin: 0;
  padding: 0;
 }
+footer{
+  background-color:  #524948;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
 /*Header*/
 header{
   background: #70F8BA;
