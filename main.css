@@ -2,7 +2,7 @@ body{
   font:15px/1.5 Allan;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #7CB4B8;
 }
 /* Global*/
 .container{
@@ -12,6 +12,6 @@ body{
 }
 /*Header*/
 header{
-  background: #D5C3E8;
+  background: #70F8BA;
   color:black;
 }
