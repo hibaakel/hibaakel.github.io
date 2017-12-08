@@ -28,7 +28,7 @@ header{
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #CAFE48 3px solid;
-  opacity: .9;
+
 }
 header a{
   color:#52489C ;
@@ -74,6 +74,8 @@ header a:hover{
   text-align: center;
   background-position: 50%;
   margin: 0 auto;
+  opacity: .7;
+  border-bottom: #997F7F 3px solid;
 
 
 }
@@ -81,8 +83,13 @@ header a:hover{
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
+  font-style: italic;
+  font-weight: bold;
 }
 #showcase p{
-  font-size: 20px;
-  color:#f4f4f4;
+  font-size: 30px;
+  color:#190000;
+  font-style:oblique;
+  text-align: center;
+  font-weight:lighter;
 }
