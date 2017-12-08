@@ -66,8 +66,8 @@ header a:hover{
   color:#524948;
   font-weight: bold;
 }
-/*showcase*/
-#showcase{
+/*About*/
+#about{
   min-height:400px;
   background: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=750&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat  0 -400px;
   background-size: cover;
@@ -76,10 +76,8 @@ header a:hover{
   margin: 0 auto;
   opacity: .7;
   border-bottom: #997F7F 3px solid;
-
-
 }
-#showcase h1{
+#about h1{
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
@@ -87,7 +85,7 @@ header a:hover{
   font-weight: bold;
   color:#666666;
 }
-#showcase p{
+#about p{
   font-size: 30px;
   color:#190000;
   font-style:oblique;
@@ -144,4 +142,3 @@ header a:hover{
 #portfolio a{
   text-decoration: none;
 }
-  
