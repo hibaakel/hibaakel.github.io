@@ -106,7 +106,7 @@ header a:hover{
   padding-bottom: 10px;
 }
 #portfolio h1{
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 55px;
   margin-bottom: 10px;
   font-style: italic;
@@ -155,10 +155,39 @@ header a:hover{
   padding-bottom: 10px;
 }
 #skills h1{
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 55px;
   margin-bottom: 10px;
   font-style: italic;
   font-weight: bold;
   color:#002033;
+}
+#skills h2{
+  font-size: 35px;
+  color:#192733;
+  font-style:italic;
+  text-align: center;
+  font-weight:bold;
+}
+#skills ul li{
+  font-size: 25px;
+  color:#002A4C;
+  font-style:italic;
+  text-align: center;
+  font-weight:lighter;
+  font-family: Lemon;
+  display:block;
+}
+.block-skills{
+  background-color: #CCE7FF;
+
+  opacity:.9;
+  padding:20px;
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  border-width: thick;
+  border-color: #B2CDE5;
+  border-style:groove;
+  text-align: center;
 }
