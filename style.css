@@ -1,22 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   text-align: center;
-  background: url('https://images.unsplash.com/photo-1493219686142-5a8641badc78?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 0;
+  font-family: Alex Brush;
+  line-height: 1.6;
   margin: 0;
-  width: 100%;
-  height: 100%;
+
+}
+#showcase{
+  background-image:  url('./images/photo.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-  font-family: Allan;
-}
+
 #title{
   color:#8AC40E;
   font-family: Alex Brush;
@@ -47,3 +51,42 @@ body{
   text-decoration: none;
   text-shadow: 4px 2px   #8AC40E;
 }
+@media (max-width: 700px){
+  #title{
+    font-size: 45px;
+    padding-top: 30px;
+  }
+  #subtitle{
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  #hr{
+    padding-top: 50px;
+  }
+
+@media only screen and  (width:375px){
+  #title{
+    font-size: 45px;
+    padding-top: 60px;
+  }
+  #subtitle{
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  #hr{
+    padding-top: 70px;
+  }
+}
+
+@media (min-width: 701px){
+  #title{
+    font-size: 45px;
+    padding-top: 90px;
+  }
+  #subtitle{
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  #hr{
+    padding-top: 90px;
+  }
