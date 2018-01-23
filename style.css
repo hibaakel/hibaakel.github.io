@@ -1,3 +1,4 @@
+/*Global*/
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +10,7 @@ body{
   margin: 0;
 
 }
+/*showcase*/
 #showcase{
   background-image:  url('./images/photo.jpeg');
   background-size: cover;
@@ -20,7 +22,7 @@ body{
   align-items: center;
 }
 
-
+/*The Title*/
 #title{
   color:#8AC40E;
   font-family: Alex Brush;
@@ -31,6 +33,7 @@ body{
    left:80px;
   font-size: 90px;
 }
+/*The Subtitle*/
 #subtitle{
   color:#8AC40E;
   font-family: Alex Brush;
@@ -40,6 +43,7 @@ body{
    left:50px;
   font-size: 30px;
 }
+/*The a Tag*/
 #hr{
   color:#FFFE19;
   font-family: Bangers;
@@ -51,42 +55,52 @@ body{
   text-decoration: none;
   text-shadow: 4px 2px   #8AC40E;
 }
-@media (max-width: 700px){
-  #title{
-    font-size: 45px;
-    padding-top: 30px;
-  }
-  #subtitle{
-    font-size: 30px;
-    padding-top: 20px;
-  }
-  #hr{
-    padding-top: 50px;
-  }
+/*Media Query*/
+/*Mobile Devices*/
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 480px)
+ {
+    #title{
+      font-size: 45px;
+      padding-top: 50px;
+    }
+    #subtitle{
+      font-size: 30px;
+      padding-top: 40px;
+    }
+    #hr{
+      padding-top: 50px;
+    }
 
-@media only screen and  (width:375px){
-  #title{
-    font-size: 45px;
-    padding-top: 60px;
   }
-  #subtitle{
-    font-size: 30px;
-    padding-top: 50px;
+  @media only screen
+  and (min-width: 375px)
+  and (max-width: 812px){
+    #title{
+      font-size: 45px;
+      padding-top: 50px;
+    }
+    #subtitle{
+      font-size: 30px;
+      padding-top: 40px;
+    }
+    #hr{
+      padding-top: 50px;
+    }
   }
-  #hr{
-    padding-top: 70px;
-  }
-}
+  /*Ipad Devices*/
+  @media only screen
+  and (min-width : 768px)
+  and (max-width : 1024px){
+    #title{
+      padding-top: 280px;
+    }
+    #subtitle{
+      font-size: 40px;
 
-@media (min-width: 701px){
-  #title{
-    font-size: 45px;
-    padding-top: 90px;
-  }
-  #subtitle{
-    font-size: 30px;
-    padding-top: 60px;
-  }
-  #hr{
-    padding-top: 90px;
-  }
+      padding-top: 310px;
+    }
+    #hr{
+      padding-top: 350px;
+    }

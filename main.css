@@ -83,12 +83,12 @@ header a:hover{
   border-bottom: #997F7F 3px solid;
 }
 #about h1{
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 55px;
   margin-bottom: 10px;
   font-style: italic;
   font-weight: bold;
-  color:#666666;
+  color:#000000;
 }
 #about p{
   font-size: 30px;
@@ -213,7 +213,7 @@ header a:hover{
   margin-bottom: 10px;
   font-style: italic;
   font-weight: bold;
-  color:#331919;
+  color:#000;
 }
 #contact ul li{
   font-size: 25px;
